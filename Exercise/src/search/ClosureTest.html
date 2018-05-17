@@ -1,0 +1,30 @@
+<html>
+<body>
+<button onclick="javascript:setPending();"> Toggle</button>
+<div id="pending">Pending</div>
+<script>
+var setPending = (function(){
+	var pendingInterval = false, div = document.getElementById("pending"); //#1
+	
+	function startPending() { //#2
+		if(div.innerHTML.length > 12){
+			div.innerHTML = "Pending";
+		}
+		div.innerHTML += ".";
+	};
+	
+	setPending = function(){
+		if(!pendingInterval){
+			pendingInterval = setInterval(startPending, 500);
+		}
+		else{
+			clearInterval(pendingInterval);
+			pendingInterval = false;
+		}
+	};
+	
+	setPending();
+});
+</script>
+</body>
+</html>

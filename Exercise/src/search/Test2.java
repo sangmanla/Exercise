@@ -1,0 +1,8 @@
+package search;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		System.out.println(" 12  31 ".matches("^[ 1-9]+$"));
+	}
+}
