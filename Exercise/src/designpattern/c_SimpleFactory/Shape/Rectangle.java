@@ -1,6 +1,6 @@
 package designpattern.c_SimpleFactory.Shape;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
 	public void draw() {
 		System.out.println("I am a Rectangle.");
 	}

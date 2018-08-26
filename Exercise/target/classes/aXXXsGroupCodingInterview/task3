@@ -1,0 +1,29 @@
+postgres sql writing
+
+         Table "public.companies"
+ Column  |         Type          | Modifiers 
+---------+-----------------------+-----------
+ name    | character varying(30) | not null
+ country | character varying(30) | not null
+Indexes:
+    "companies_name_key" UNIQUE CONSTRAINT, btree (name)
+    
+ Table "public.trades"
+ Column |         Type          | Modifiers 
+--------+-----------------------+-----------
+ id     | integer               | not null
+ seller | character varying(30) | not null
+ buyer  | character varying(30) | not null
+ value  | integer               | not null
+Indexes:
+    "trades_id_key" UNIQUE CONSTRAINT, btree (id)
+    
+
+select A.country, coalesce(sum(B.value),0), coalesce(sum(C.value), 0)
+from companies A
+LEFT OUTER JOIN trades B on A.name = B.seller
+LEFT OUTER JOIN trades C on A.name = C.buyer
+group by A.country
+order by A.country;
+
+=> 44Á¡ ³ª¿È
