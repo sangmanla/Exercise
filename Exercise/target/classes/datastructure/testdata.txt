@@ -1,0 +1,47 @@
+Branding Academy Joe H.B. jo. MFA, BA, TESL Ca, CHRP Candidate
+jjo@brandingjobinterview.com
+
+blog.naver.com/johb01 => Apple 취업 관련 내용 참고
+
+- Resume
+. 집 주소는 필요없다.
+. Canadian experience는 필수. Part-time이나 Intern 경험이 필요함.
+. Engaged in around 20 large enterprise Java projects
+. Expereinced various J2EE frameworks such as Spring MVC/Security/JDBC/MyBatis, Oracle J2EE business solutions(OADF)
+. GS1 Canada
+
+- Job Search
+. 5 targeted applying, + 20 untargeted applying (with my default resume) in a day
+. IT Recruiter => 이런 업체는 한번 보내보자는 식으로 접근해야 함.
+. Internal Hiring: 아는 사람 통해서 들어가기
+. Junior : 40k ~ 55k
+. HR Manager한테 메일 보낼 때 native speaker에게 한번 확인하고 보내야 함.
+
+- Phone Interview
+. spec check, availability
+. 자신있게 잘한다고 해라. 어차피 여기서는 기술 체크 관심 없다.
+. Hiring Manager: 나를 뽑아서 활용할 팀의 부서장. HR Manager가 아님. 
+
+- Contractor도 PR 신청시 좋다. 
+- Expecting salary는 얘기하지 말고, I love this opportunity 이런 식으로 접근해야 한다.
+
+아래는 반드시 준비해서 외우고 가라
+- 자기 소개
+   . I am a full stack developer with ~~ years experience in ~~. and skills, and education..
+- 장단점
+- 우리회사에서 하고 싶은 일?
+- 5년 10년 후 모습
+- any questions?
+
+Job recruiter들은 파트너이다. 주눅들 필요없이, 같이 얘기해 나가야 한다.
+
+------------------------------------------------------------------------------------------------------
+변성민 jinibyun@gmail.com, www.linkedin.com/in/jinibyun
+- CRUD: 크러드. native들은 이렇게 읽는다.
+
+programmableweb.com
+=> api 관련 정보 찾을 수 있다.
+
+Ontario Teacher Pension Plan
+
+http://codinglearn.ca

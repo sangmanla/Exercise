@@ -15,7 +15,7 @@ public class Test6 {
 			return 123;
 		});
 		
-		future.get(1, TimeUnit.SECONDS);
+		future.get(100, TimeUnit.SECONDS);
 		executor.shutdown();
 	}
 }
