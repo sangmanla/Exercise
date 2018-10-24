@@ -1,6 +1,6 @@
 package designpattern.d_factoryMethod.shape;
 
-public class Triangle extends Shape {
+public class Triangle implements Shape {
 	public void draw() {
 		System.out.println("I am a Triangle.");
 	}

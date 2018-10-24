@@ -23,8 +23,8 @@ public class BigSorting {
         scanner.close();
         
         Arrays.sort(unsorted, (left, right) -> {
-        	if(left.length()!=right.length()) return left.length() - right.length();
-        	else return left.compareTo(right);
+            if(left.length()!=right.length()) return left.length() - right.length();
+            else return left.compareTo(right);
         });
         
         System.out.println(String.join(System.lineSeparator(), unsorted));

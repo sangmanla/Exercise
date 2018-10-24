@@ -1,6 +1,6 @@
 package designpattern.d_factoryMethod.shape;
 
-public class Circle extends Shape {
+public class Circle implements Shape {
 
 	public void draw() {
 		System.out.println("I am a circle.");

@@ -1,7 +1,7 @@
 package designpattern.d_factoryMethod.shape;
 
-public abstract class Shape {
-	public abstract void draw();
-	public abstract void prepare();
-	public abstract void later();
+public interface Shape {
+	public void draw();
+	public void prepare();
+	public void later();
 }
