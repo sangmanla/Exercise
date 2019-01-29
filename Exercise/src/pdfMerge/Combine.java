@@ -8,7 +8,7 @@ import org.apache.pdfbox.util.PDFMergerUtility;
 
 public class Combine {
 	public static void main(String[] args) throws COSVisitorException, IOException {
-		String path = "C:\\Users\\sam\\Desktop\\Á¦Ãâ¼­·ù\\½ºÄµ\\";
+		String path = "C:\\Users\\sam\\Desktop\\ï¿½ï¿½ï¿½â¼­ï¿½ï¿½\\ï¿½ï¿½Äµ\\";
 		String[] files = {"img006.pdf", "img007.pdf"};
 		
 		PDFMergerUtility ut = new PDFMergerUtility();

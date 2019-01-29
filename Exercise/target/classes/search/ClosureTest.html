@@ -1,9 +1,10 @@
 <html>
 <body>
-<button onclick="javascript:setPending();"> Toggle</button>
+<button onclick="javascript:test();"> Toggle</button>
 <div id="pending">Pending</div>
 <script>
 var setPending = (function(){
+	console.log(1);
 	var pendingInterval = false, div = document.getElementById("pending"); //#1
 	
 	function startPending() { //#2
@@ -14,6 +15,7 @@ var setPending = (function(){
 	};
 	
 	setPending = function(){
+		console.log('pendingInterval : ' + pendingInterval);
 		if(!pendingInterval){
 			pendingInterval = setInterval(startPending, 500);
 		}
@@ -25,6 +27,13 @@ var setPending = (function(){
 	
 	setPending();
 });
+
+// 처음 호출 시에는 setPending 메서드가 전역 setPending에 binding되지만, 이후 호출 시에는 setPending 내부에서 재정의된
+// setPending에 binding이 된다. 
+function test(){
+	console.log(setPending);
+	setPending();
+}
 </script>
 </body>
 </html>
