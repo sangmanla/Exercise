@@ -1,4 +1,4 @@
-package amazon;
+package am_Company;
 
 import java.util.Arrays;
 

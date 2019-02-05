@@ -1,4 +1,4 @@
-package amazon;
+package am_Company;
 
 public class Pow {
 
