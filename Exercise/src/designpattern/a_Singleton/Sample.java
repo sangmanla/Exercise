@@ -5,18 +5,18 @@ public class Sample {
     };
 
     private static class SingletonHandler {
-	private static final Sample instance = new Sample();
+    	private static final Sample instance = new Sample();
     }
 
     public static Sample getInstance() {
-	return SingletonHandler.instance;
+    	return SingletonHandler.instance;
     }
 
     public static void main(String[] args) {
-	System.out.println(Sample.class);
-	Sample a = Sample.getInstance();
-	Sample b = Sample.getInstance();
-	
-	System.out.println(a.equals(b));
+		System.out.println(Sample.class);
+		Sample a = Sample.getInstance();
+		Sample b = Sample.getInstance();
+		
+		System.out.println(a.equals(b));
     }
 }
